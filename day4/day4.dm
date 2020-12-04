@@ -62,4 +62,6 @@ mob/verb/showresults()
 	world << "ecl: [P.ecl]"
 	world << "pid: [P.pid]"
 	world << "cid: [P.cid]"
-	world << "Total valid passports: [validPassports.len]"
+	world << "Total part 1 valid passports: [validPassports.len]"
+
+	validatepart2()

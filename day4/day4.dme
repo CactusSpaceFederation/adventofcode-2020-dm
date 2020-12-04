@@ -14,5 +14,6 @@
 
 // BEGIN_INCLUDE
 #include "day4.dm"
+#include "day4p2.dm"
 // END_INCLUDE
 
